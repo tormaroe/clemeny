@@ -1,0 +1,13 @@
+
+000 REM --------------
+001 REM    EXSAMPLE
+002 REM --------------
+
+010 LET X = 1
+020
+030 IF X = 11 THEN 999
+040 PRINT X
+050 LET X = X + 1
+060 GOTO 30
+
+999 END
